@@ -1,0 +1,16 @@
+.clearfix() {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.main-nav {
+  min-height: 50px;
+
+  &--tiny {
+    min-height: 20px;
+    .clearfix();
+  }
+}

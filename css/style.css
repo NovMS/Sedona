@@ -1,0 +1,11 @@
+.main-nav {
+  min-height: 50px;
+}
+.main-nav--tiny {
+  min-height: 20px;
+}
+.main-nav--tiny::after {
+  content: "";
+  display: table;
+  clear: both;
+}
